@@ -1,0 +1,10 @@
+.\objects\delay.o: SYSTEM\delay\delay.c
+.\objects\delay.o: SYSTEM\delay\delay.h
+.\objects\delay.o: .\SYSTEM\chip\stm32f4xx.h
+.\objects\delay.o: .\CORE\core_cm4.h
+.\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: .\CORE\core_cmInstr.h
+.\objects\delay.o: .\CORE\core_cmFunc.h
+.\objects\delay.o: .\CORE\core_cmSimd.h
+.\objects\delay.o: .\SYSTEM\chip\system_stm32f4xx.h
+.\objects\delay.o: .\USER\config.h

@@ -1,0 +1,11 @@
+.\objects\dbuart.o: SYSTEM\DBuart\DBuart.c
+.\objects\dbuart.o: SYSTEM\DBuart\DBuart.h
+.\objects\dbuart.o: .\SYSTEM\chip\stm32f4xx.h
+.\objects\dbuart.o: .\CORE\core_cm4.h
+.\objects\dbuart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dbuart.o: .\CORE\core_cmInstr.h
+.\objects\dbuart.o: .\CORE\core_cmFunc.h
+.\objects\dbuart.o: .\CORE\core_cmSimd.h
+.\objects\dbuart.o: .\SYSTEM\chip\system_stm32f4xx.h
+.\objects\dbuart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dbuart.o: .\USER\config.h

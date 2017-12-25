@@ -1,0 +1,9 @@
+.\objects\sys.o: SYSTEM\sys\sys.c
+.\objects\sys.o: SYSTEM\sys\sys.h
+.\objects\sys.o: .\SYSTEM\chip\stm32f4xx.h
+.\objects\sys.o: .\CORE\core_cm4.h
+.\objects\sys.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sys.o: .\CORE\core_cmInstr.h
+.\objects\sys.o: .\CORE\core_cmFunc.h
+.\objects\sys.o: .\CORE\core_cmSimd.h
+.\objects\sys.o: .\SYSTEM\chip\system_stm32f4xx.h

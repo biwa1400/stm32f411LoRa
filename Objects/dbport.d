@@ -1,0 +1,11 @@
+.\objects\dbport.o: SYSTEM\dbPort\dbPort.c
+.\objects\dbport.o: SYSTEM\dbPort\dbPort.h
+.\objects\dbport.o: .\SYSTEM\chip\stm32f4xx.h
+.\objects\dbport.o: .\CORE\core_cm4.h
+.\objects\dbport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dbport.o: .\CORE\core_cmInstr.h
+.\objects\dbport.o: .\CORE\core_cmFunc.h
+.\objects\dbport.o: .\CORE\core_cmSimd.h
+.\objects\dbport.o: .\SYSTEM\chip\system_stm32f4xx.h
+.\objects\dbport.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dbport.o: .\USER\config.h

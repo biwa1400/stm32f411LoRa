@@ -1,0 +1,54 @@
+Dependencies for Project 'LoRaV1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\USER\test.c)(0x5A40F59C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (.\SYSTEM\chip\stm32f4xx.h)(0x582097AB)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (.\SYSTEM\chip\system_stm32f4xx.h)(0x582097AB)
+I (USER\config.h)(0x5A3E7D57)
+I (.\SYSTEM\delay\delay.h)(0x5A3BE291)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+F (.\CORE\core_cm4..c)(0x59F03133)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\core_cm4..o --omf_browse .\objects\core_cm4..crf --depend .\objects\core_cm4..d)
+F (.\CORE\startup_stm32f411xe.s)(0x582097A0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F411xE SETA 1"--list .\listings\startup_stm32f411xe.lst --xref -o .\objects\startup_stm32f411xe.o --depend .\objects\startup_stm32f411xe.d)
+F (.\SYSTEM\chip\system_stm32f4xx.c)(0x5A3BE048)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (SYSTEM\chip\stm32f4xx.h)(0x582097AB)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (SYSTEM\chip\system_stm32f4xx.h)(0x582097AB)
+F (.\SYSTEM\chip\stm32f4xx_it.c)(0x5A3E2610)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (SYSTEM\chip\stm32f4xx_it.h)(0x58221742)
+I (SYSTEM\chip\stm32f4xx.h)(0x582097AB)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (SYSTEM\chip\system_stm32f4xx.h)(0x582097AB)
+F (.\SYSTEM\delay\delay.c)(0x5A3E2295)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (SYSTEM\delay\delay.h)(0x5A3BE291)
+I (.\SYSTEM\chip\stm32f4xx.h)(0x582097AB)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (.\SYSTEM\chip\system_stm32f4xx.h)(0x582097AB)
+I (.\USER\config.h)(0x5A3E7D57)
+F (.\SYSTEM\DBuart\DBuart.c)(0x5A3E837E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\dbuart.o --omf_browse .\objects\dbuart.crf --depend .\objects\dbuart.d)
+I (SYSTEM\DBuart\DBuart.h)(0x5A3E8028)
+I (.\SYSTEM\chip\stm32f4xx.h)(0x582097AB)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (.\SYSTEM\chip\system_stm32f4xx.h)(0x582097AB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+I (.\USER\config.h)(0x5A3E7D57)
+F (.\HARDWARE\led.c)(0x5A3A4824)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -W -O0 --apcs=interwork --split_sections -I .\CORE -I .\HARDWARE -I .\SYSTEM\chip -I .\SYSTEM\sys -I .\USER -I .\SYSTEM\delay -I .\SYSTEM\DBuart-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F411xE -DSTM32F411xE -DDEBUG-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (HARDWARE\led.h)(0x5A3BDBD8)
